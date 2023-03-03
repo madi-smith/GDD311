@@ -8,7 +8,6 @@ public class TogglePhone : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //TogglePhonePress();
     }
 
     // Update is called once per frame
