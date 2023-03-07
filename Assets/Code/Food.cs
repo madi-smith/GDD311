@@ -25,4 +25,5 @@ public class Food : MonoBehaviour
     {
         transform.position = CurrentMouseLocation() + mouseLocation;
     }
+    
 }

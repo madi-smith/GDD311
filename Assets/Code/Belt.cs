@@ -12,4 +12,5 @@ public class Belt : MonoBehaviour
             rb.velocity = new Vector2(-3f, rb.velocity.y);
         }
     }
+
 }
