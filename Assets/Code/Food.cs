@@ -6,8 +6,6 @@ public class Food : MonoBehaviour
 {
     Vector3 mouseLocation;
 
-    //have function to move item down converbelt
-
     //grabs mouse location
     private Vector3 CurrentMouseLocation()
     {

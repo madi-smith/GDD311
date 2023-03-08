@@ -16,10 +16,14 @@ public class Scan : MonoBehaviour
         
     }
     //triggers sound and food counter
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        foodCount += foodCount;
-        //que sound(check gdd211 puzzle noise)
+        if (collision.gameObject.tag == "GroceryItem")
+        {
+            foodCount = foodCount + 1;
+            GameObject.Destroy(collision);
+
+        }
         if(foodCount == 4)
         {
             Debug.Log("Pretend the scene is changing");

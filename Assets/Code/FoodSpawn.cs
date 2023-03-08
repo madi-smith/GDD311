@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FoodSpawn : MonoBehaviour
 {
+    //spawns food to the scanned, moves it down to converybelt
     public GameObject[] FoodArray;
     public GameObject FoodItem;
     private float Timer = 1;

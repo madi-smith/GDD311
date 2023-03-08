@@ -5,19 +5,28 @@ using DG.Tweening;
 
 public class TogglePhone : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public int TF;
     void Start()
     {
+        TF = 0;
     }
 
     // Update is called once per frame
     public void TogglePhonePress()
     {
-        GetComponent<RectTransform>().DOMove(new Vector3(5.16f, -1.8f, 0), 1f);
+        if (TF == 0)
+        {
+            GetComponent<RectTransform>().DOMove(new Vector3(5.16f, -1.8f, 0), 1f);
+            TF = 1;
+        }
     }
-   /* public void TogglePhoneDown()
+    public void TogglePhoneDown()
     {
-        GetComponent<RectTransform>().DOMove(new Vector3(5f, -6.6f, 0), 1f);
+        if (TF == 1)
+        {
+            GetComponent<RectTransform>().DOMove(new Vector3(5f, -6.6f, 0), 1f);
+            TF = 0;
+        }
     }
-   */
+   
 }
