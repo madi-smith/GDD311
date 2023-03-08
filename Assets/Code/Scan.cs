@@ -21,10 +21,11 @@ public class Scan : MonoBehaviour
         if (collision.gameObject.tag == "GroceryItem")
         {
             foodCount = foodCount + 1;
-            GameObject.Destroy(collision);
+            Destroy(gameObject);
+           
 
         }
-        if(foodCount == 4)
+        if(foodCount == 40)
         {
             Debug.Log("Pretend the scene is changing");
         }

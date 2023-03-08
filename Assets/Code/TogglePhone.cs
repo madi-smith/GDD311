@@ -14,19 +14,15 @@ public class TogglePhone : MonoBehaviour
     // Update is called once per frame
     public void TogglePhonePress()
     {
-        if (TF == 0)
-        {
+        
             GetComponent<RectTransform>().DOMove(new Vector3(5.16f, -1.8f, 0), 1f);
-            TF = 1;
-        }
+    
     }
     public void TogglePhoneDown()
     {
-        if (TF == 1)
-        {
+ 
             GetComponent<RectTransform>().DOMove(new Vector3(5f, -6.6f, 0), 1f);
-            TF = 0;
-        }
+      
     }
    
 }
