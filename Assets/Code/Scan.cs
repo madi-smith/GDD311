@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement; 
+using UnityEngine.SceneManagement;
 
 public class Scan : MonoBehaviour
 {
@@ -20,14 +20,12 @@ public class Scan : MonoBehaviour
     {
         if (collision.gameObject.tag == "GroceryItem")
         {
-            foodCount = foodCount + 1;
-            Destroy(gameObject);
-           
+            foodCount = foodCount + 1; 
 
         }
         if(foodCount == 40)
         {
-            Debug.Log("Pretend the scene is changing");
+            SceneManager.LoadScene(2);
         }
     }
 
