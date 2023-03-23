@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Scan : MonoBehaviour
 {
     public int foodCount = 0;
+    public int total;
 
     private void Start()
     {
@@ -23,7 +24,7 @@ public class Scan : MonoBehaviour
             foodCount = foodCount + 1; 
 
         }
-        if(foodCount == 40)
+        if(foodCount == total)
         {
             SceneManager.LoadScene(2);
         }
