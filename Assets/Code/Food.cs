@@ -28,7 +28,7 @@ public class Food : MonoBehaviour
     {
         if (collision.gameObject.tag == "Scanner")
         {
-           // Destroy(this.gameObject);
+           Destroy(this.gameObject);
         }
         
     }
