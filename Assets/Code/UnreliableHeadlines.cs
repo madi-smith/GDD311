@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Food : MonoBehaviour
+public class UnreliableHeadlines : MonoBehaviour
 {
     Vector3 mouseLocation;
+    public int counter = 0;
 
     //grabs mouse location
     private Vector3 CurrentMouseLocation()
@@ -26,11 +27,11 @@ public class Food : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Scanner")
+        if (collision.gameObject.tag == "Unreliable")
         {
-           // Destroy(this.gameObject);
+            // Destroy(this.gameObject);
+            counter = counter + 1;
         }
-        
-    }
 
+    }
 }

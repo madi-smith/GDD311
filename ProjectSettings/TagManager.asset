@@ -6,6 +6,8 @@ TagManager:
   tags:
   - GroceryItem
   - Scanner
+  - Reliable
+  - Unreliable
   layers:
   - Default
   - TransparentFX

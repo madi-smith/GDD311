@@ -17,7 +17,7 @@ public class TogglePhone : MonoBehaviour
     public void TogglePhonePress()
     {
         
-            GetComponent<RectTransform>().DOMove(new Vector3(5.16f, -1.8f, 0), 1f);
+            GetComponent<RectTransform>().DOMove(new Vector3(4.21f, -0.9f, 0), 1f);
         PhoneChecker = PhoneChecker + 1;
         if(PhoneChecker == 4)
         {
@@ -28,8 +28,9 @@ public class TogglePhone : MonoBehaviour
     public void TogglePhoneDown()
     {
  
-            GetComponent<RectTransform>().DOMove(new Vector3(5f, -6.6f, 0), 1f);
-      
+            GetComponent<RectTransform>().DOMove(new Vector3(4.2f, -8.2f, 0), 1f);
+
+
     }
    
 }

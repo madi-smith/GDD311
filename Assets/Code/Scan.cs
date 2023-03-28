@@ -26,7 +26,7 @@ public class Scan : MonoBehaviour
         }
         if(foodCount == total)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(1);
         }
     }
 
