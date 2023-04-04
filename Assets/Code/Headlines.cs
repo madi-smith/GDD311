@@ -5,7 +5,7 @@ using UnityEngine;
 public class Headlines : MonoBehaviour
 {
     Vector3 mouseLocation;
-    public int counter = 0;
+    //public int counter = 0;
 
     //grabs mouse location
     private Vector3 CurrentMouseLocation()
@@ -30,7 +30,6 @@ public class Headlines : MonoBehaviour
         if (collision.gameObject.tag == "Reliable")
         {
             // Destroy(this.gameObject);
-            counter = counter + 1;
         }
 
     }
