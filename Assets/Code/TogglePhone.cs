@@ -16,8 +16,12 @@ public class TogglePhone : MonoBehaviour
     // Update is called once per frame
     public void TogglePhonePress()
     {
-        
-            GetComponent<RectTransform>().DOMove(new Vector3(4.21f, -0.9f, 0), 1f);
+
+        //GetComponent<RectTransform>().DOMove(new Vector3(4.21f, -0.9f, 0), 1f);
+
+        // fungus positions
+        GetComponent<RectTransform>().DOMoveY(7.6f, 1f);
+
         PhoneChecker = PhoneChecker + 1;
         if(PhoneChecker == 4)
         {
@@ -27,8 +31,10 @@ public class TogglePhone : MonoBehaviour
     }
     public void TogglePhoneDown()
     {
- 
-            GetComponent<RectTransform>().DOMove(new Vector3(4.2f, -8.2f, 0), 1f);
+
+        //GetComponent<RectTransform>().DOMove(new Vector3(4.2f, -8.2f, 0), 1f);
+        // fungus positions
+        GetComponent<RectTransform>().DOMoveY(0f, 1f);
 
 
     }
