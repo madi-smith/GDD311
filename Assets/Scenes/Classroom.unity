@@ -430,6 +430,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1578504310941183702, guid: 21a7f4c9c7b314b5484e2005ee6cf540, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578504310941183702, guid: 21a7f4c9c7b314b5484e2005ee6cf540, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578504310941183702, guid: 21a7f4c9c7b314b5484e2005ee6cf540, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3294957851135296951, guid: 21a7f4c9c7b314b5484e2005ee6cf540, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -0.00091446313
@@ -680,7 +692,6 @@ GameObject:
   m_Component:
   - component: {fileID: 495841284}
   - component: {fileID: 495841283}
-  - component: {fileID: 495841282}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -688,14 +699,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &495841282
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 495841281}
-  m_Enabled: 1
 --- !u!20 &495841283
 Camera:
   m_ObjectHideFlags: 0
