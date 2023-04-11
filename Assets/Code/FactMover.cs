@@ -10,7 +10,8 @@ public class FactMover : MonoBehaviour
 
         //GetComponent<RectTransform>().DOMove(new Vector3(4.2f, -8.2f, 0), 1f);
         // fungus positions
-        GetComponent<RectTransform>().DOMoveY(0.2f, 0.3f);
+       // GetComponent<RectTransform>().DOMoveY(0.2f, 0.3f);
+        transform.position = new Vector3(0.2f, 0.3f, 0f);
 
 
     }
