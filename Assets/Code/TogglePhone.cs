@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class TogglePhone : MonoBehaviour
 {
     public int TF;
-    public int PhoneChecker = 0;
     void Start()
     {
         TF = 0;
@@ -20,13 +19,7 @@ public class TogglePhone : MonoBehaviour
         //GetComponent<RectTransform>().DOMove(new Vector3(4.21f, -0.9f, 0), 1f);
 
         // fungus positions
-        GetComponent<RectTransform>().DOMoveY(7.6f, 1f);
-
-        PhoneChecker = PhoneChecker + 1;
-        if(PhoneChecker == 4)
-        {
-            SceneManager.LoadScene(1);
-        }
+        GetComponent<RectTransform>().DOMoveY(0f, 1f);
     
     }
     public void TogglePhoneDown()
@@ -34,9 +27,10 @@ public class TogglePhone : MonoBehaviour
 
         //GetComponent<RectTransform>().DOMove(new Vector3(4.2f, -8.2f, 0), 1f);
         // fungus positions
-        GetComponent<RectTransform>().DOMoveY(0f, 1f);
+        GetComponent<RectTransform>().DOMoveY(-8f, 1f);
+        //Vector3(4.71000004,-8.30000019,0)
 
 
     }
-   
+
 }
