@@ -9,4 +9,16 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+    public void GroceryButton()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void ClassButton()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void BedroomButton()
+    {
+        SceneManager.LoadScene(1);
+    }
 }
