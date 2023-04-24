@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a5a1ec529414d441e935682028b976a5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Chalkiez
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c6ee4deef2f70456e9a19b80e49309f7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -17,7 +17,7 @@ public class RelieCounter : MonoBehaviour
         }
         if (count == total)
         {
-            SceneManager.LoadScene(1);
+           // SceneManager.LoadScene(1);
         }
     }
 }
