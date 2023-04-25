@@ -1382,10 +1382,6 @@ GameObject:
   - component: {fileID: 1115729130}
   - component: {fileID: 1115729131}
   - component: {fileID: 1115729132}
-  - component: {fileID: 1115729136}
-  - component: {fileID: 1115729135}
-  - component: {fileID: 1115729134}
-  - component: {fileID: 1115729133}
   - component: {fileID: 1115729128}
   - component: {fileID: 1115729127}
   - component: {fileID: 1115729123}
@@ -1465,9 +1461,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1115729120}
-  selectedCommands:
-  - {fileID: 1115729123}
+  - {fileID: 1115729125}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1495,7 +1490,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1115729123
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1546,8 +1541,6 @@ MonoBehaviour:
   - {fileID: 1115729129}
   - {fileID: 1115729130}
   - {fileID: 1115729131}
-  - {fileID: 1115729134}
-  - {fileID: 1115729133}
   suppressAllAutoSelections: 0
 --- !u!114 &1115729125
 MonoBehaviour:
@@ -1576,8 +1569,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1115729126}
   - {fileID: 1115729132}
-  - {fileID: 1115729136}
-  - {fileID: 1115729135}
   suppressAllAutoSelections: 0
 --- !u!114 &1115729126
 MonoBehaviour:
@@ -1609,7 +1600,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1115729127
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1634,7 +1625,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1115729128
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1773,80 +1764,6 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
---- !u!114 &1115729133
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115729118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 15
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: Classroom
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
---- !u!114 &1115729134
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115729118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 14
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 8
-  durationOLD: 0
---- !u!114 &1115729135
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115729118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 13
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: Classroom
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
---- !u!114 &1115729136
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115729118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 12
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 8
-  durationOLD: 0
 --- !u!1 &1166579437
 GameObject:
   m_ObjectHideFlags: 0
