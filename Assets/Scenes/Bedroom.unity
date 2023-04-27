@@ -724,6 +724,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593ac2cf7db2343818417de68027a162, type: 3}
+--- !u!1 &562383031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 629870252411508937, guid: 593ac2cf7db2343818417de68027a162, type: 3}
+  m_PrefabInstance: {fileID: 562383030}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &562383032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562383031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b19c6987b964f17ba1d027b886a933, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &820371648
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,6 +2207,8 @@ GameObject:
   - component: {fileID: 2036539056}
   - component: {fileID: 2036539055}
   - component: {fileID: 2036539045}
+  - component: {fileID: 2036539064}
+  - component: {fileID: 2036539063}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2348,7 +2367,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 256
-    y: 57
+    y: 58
     width: 127
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2364,6 +2383,7 @@ MonoBehaviour:
   - {fileID: 2036539056}
   - {fileID: 2036539055}
   - {fileID: 2036539045}
+  - {fileID: 2036539063}
   suppressAllAutoSelections: 0
 --- !u!114 &2036539051
 MonoBehaviour:
@@ -2437,8 +2457,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2036539050}
-  selectedCommands: []
+  - {fileID: 2036539060}
+  selectedCommands:
+  - {fileID: 2036539064}
   variables: []
   description: 
   stepPause: 0
@@ -2625,7 +2646,8 @@ MonoBehaviour:
   blockName: Stop engaging
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 2036539064}
   suppressAllAutoSelections: 0
 --- !u!114 &2036539061
 MonoBehaviour:
@@ -2677,3 +2699,59 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &2036539063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036539044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 17
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 562383031}
+  targetComponentAssemblyName: FactMover, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: FactMover
+  targetMethod: FactDown
+  targetMethodText: 'FactDown (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &2036539064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036539044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 16
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 562383031}
+  targetComponentAssemblyName: FactMover, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: FactMover
+  targetMethod: FactDown
+  targetMethodText: 'FactDown (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
