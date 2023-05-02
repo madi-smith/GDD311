@@ -7,6 +7,9 @@
 		<relationship name="items">
 			<destination>{7312096e-c6f3-4b1b-b280-1d5f4fbff963}</destination>
 			<destination>{54b340c5-80df-48c9-aa77-0d32516d6635}</destination>
+			<destination>{b3c36ce7-a985-40e0-a7e5-052d889619ff}</destination>
+			<destination>{34640055-c9e0-491c-8665-f5c07ca9ae01}</destination>
+			<destination>{0808f2cc-2d80-412f-bb9f-1b1fe2288e0d}</destination>
 		</relationship>
 	</object>
 	<object class="Tag" id="{7312096e-c6f3-4b1b-b280-1d5f4fbff963}">
@@ -15,6 +18,21 @@
 		</property>
 	</object>
 	<object class="Tag" id="{54b340c5-80df-48c9-aa77-0d32516d6635}">
+		<property name="name">
+			<value>placeholder</value>
+		</property>
+	</object>
+	<object class="Tag" id="{b3c36ce7-a985-40e0-a7e5-052d889619ff}">
+		<property name="name">
+			<value>placeholder</value>
+		</property>
+	</object>
+	<object class="Tag" id="{34640055-c9e0-491c-8665-f5c07ca9ae01}">
+		<property name="name">
+			<value>placeholder</value>
+		</property>
+	</object>
+	<object class="Tag" id="{0808f2cc-2d80-412f-bb9f-1b1fe2288e0d}">
 		<property name="name">
 			<value>placeholder</value>
 		</property>

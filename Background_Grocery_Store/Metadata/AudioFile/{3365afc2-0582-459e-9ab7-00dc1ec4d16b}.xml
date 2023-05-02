@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{3365afc2-0582-459e-9ab7-00dc1ec4d16b}">
+		<property name="assetPath">
+			<value>Chirp.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>85.760000000000005</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{01ce031c-8d90-47a4-a930-8d4f69b2e173}</destination>
+		</relationship>
+	</object>
+</objects>
