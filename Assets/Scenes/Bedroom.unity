@@ -585,8 +585,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532580968}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0011, y: -0.1751, z: 0}
-  m_LocalScale: {x: 0.75722206, y: 0.87245315, z: 1}
+  m_LocalPosition: {x: 0.0405, y: -0.1751, z: 0}
+  m_LocalScale: {x: 0.8570866, y: 0.87245315, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -608,11 +608,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 629870252411508938, guid: 593ac2cf7db2343818417de68027a162, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.059363
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 629870252411508938, guid: 593ac2cf7db2343818417de68027a162, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.375908
+      value: 8.36
       objectReference: {fileID: 0}
     - target: {fileID: 629870252411508938, guid: 593ac2cf7db2343818417de68027a162, type: 3}
       propertyPath: m_LocalPosition.z
@@ -652,11 +652,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5616432323377453435, guid: 593ac2cf7db2343818417de68027a162, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 4.15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5616432323377453435, guid: 593ac2cf7db2343818417de68027a162, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.32
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678615893745584737, guid: 593ac2cf7db2343818417de68027a162, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593ac2cf7db2343818417de68027a162, type: 3}
@@ -2113,9 +2117,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2036539060}
+  - {fileID: 2036539050}
   selectedCommands:
-  - {fileID: 2036539064}
+  - {fileID: 2036539058}
   variables: []
   description: 
   stepPause: 0
@@ -2293,7 +2297,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 217
-    y: 126
+    y: 127
     width: 131
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2357,7 +2361,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &2036539063
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2385,7 +2389,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &2036539064
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
