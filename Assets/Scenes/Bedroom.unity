@@ -2119,7 +2119,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2036539050}
   selectedCommands:
-  - {fileID: 2036539058}
+  - {fileID: 2036539057}
   variables: []
   description: 
   stepPause: 0
@@ -2214,7 +2214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: 'Player: Yeah, also have you guys heard abnything about what Vanessa
+  storyText: 'Player: Yeah, also have you guys heard anything about what Vanessa
     said about me? '
   description: 
   character: {fileID: 0}
